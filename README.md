@@ -15,3 +15,6 @@ Simple Man Utd themed stopwatch built with HTML, CSS, and JavaScript.
 
 # Author
 Uchenna Onyeka
+
+# Live Demo
+https://uchennaonyeka20-ctrl.github.io/stopwatch/
