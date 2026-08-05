@@ -2,16 +2,16 @@
 
 Simple Man Utd themed stopwatch built with HTML, CSS, and JavaScript.
 
-#Features
+# Features
 -Start
 -Stop
 -Reset
 -millisecond precision
 
-#Technologies Used
+# Technologies Used
 -HTML
 -CSS
 -JavaScript
 
-#Author
+# Author
 -Uchenna Onyeka
