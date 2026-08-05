@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-image: url(united.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%, 0.75);
+    text-shadow: 2px 2px 2px;
+    height: 50vh;  
+    backdrop-filter: blur(5px);
+    background-color: hsl(0, 0%, 100%, 0.05);
+}
+
+
+#startBtn{
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: rgb(44, 255, 44);;
+    color: black;
+    font-weight: bold;
+}
+#startBtn:hover{
+    background-color: rgb(33, 182, 33);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#stopBtn{
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: rgb(255, 44, 44);;
+    color: black;
+    font-weight: bold;
+}
+#stopBtn:hover{
+    background-color: rgb(182, 33, 33);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#resetBtn{
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: rgb(44, 93, 255);;
+    color: black;
+    font-weight: bold;
+}
+#resetBtn:hover{
+    background-color: rgb(33, 43, 182);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
